@@ -2,7 +2,8 @@ from rplidar import RPLidar
 lidar = RPLidar('/dev/ttyUSB0')
 
 info = lidar.get_info()
-print(info)
+print (info)
+print ('Hello\n')
 
 health = lidar.get_health()
 print(health)
